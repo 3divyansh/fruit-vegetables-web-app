@@ -1,8 +1,19 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useSelector,useDispatch } from 'react-redux'
 import { Link } from 'react-router-dom'
+import { getCategory } from '../../../redux/sagas/category.saga'
+import { GET_NEW_CATEGORY } from '../../../redux/constants/categories.constant'
 
 const Category = () => {
+  const categories=useSelector(state=> state.category.categories)
+  const dispatch= useDispatch();
+  console.log(categories)
+let var1=1;
+  useEffect(()=>{
+  dispatch({type: GET_NEW_CATEGORY})
+    
+      },[var1])
   return (
     <div>
       {/* Single Page Header start */}
