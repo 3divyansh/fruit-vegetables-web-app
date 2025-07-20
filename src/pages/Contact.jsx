@@ -28,8 +28,7 @@ const Contact = () => {
                 <h1 className="text-primary">Get in touch</h1>
                 <p className="mb-4">
                   The contact form is currently inactive. Get a functional and
-                  working contact form with Ajax &amp; PHP in a few minutes. Just
-                  copy and paste the files, add a little code and you're done.{" "}
+                
                   <a href="https://htmlcodex.com/contact-form">Download Now</a>.
                 </p>
               </div>
@@ -39,7 +38,7 @@ const Contact = () => {
                 <iframe
                 title="mfkdfmkd"
                   className="rounded w-100"
-                  style={{ height: 400 }}
+                  style={{ height: 500 }}
                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224738.28566850457!2d77.03687099999999!3d28.613939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfc55e4ed20eb%3A0x7b0c0d2bc5f4a8d8!2sDelhi%2C%20India!5e0!3m2!1sen!2sbd!4v1694259649153!5m2!1sen!2sbd"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
