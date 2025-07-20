@@ -2,7 +2,6 @@
 import React, { useEffect } from 'react'
 import { useSelector,useDispatch } from 'react-redux'
 import { Link } from 'react-router-dom'
-import { getCategory } from '../../../redux/sagas/category.saga'
 import { GET_NEW_CATEGORY } from '../../../redux/constants/categories.constant'
 
 const Category = () => {
